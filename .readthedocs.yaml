@@ -31,4 +31,4 @@ git:
   submodules: false
   depth: 50
   verbose: true
-  commit: "main"  # Replace "main" with your branch name if different
+  commit: "gh-pages"  # Replace "main" with your branch name if different
