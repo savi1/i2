@@ -25,10 +25,7 @@ python:
   install:
     - requirements: docs/requirements.txt
 
-# Specify the branch to use
-git:
-  clone: "https://github.com/savi1/i2.git"
-  submodules: false
-  depth: 50
-  verbose: true
-  commit: "gh-pages"  # Replace "main" with your branch name if different
+# Specify the correct branch for cloning if needed (remove if not required)
+# branches:
+#   only:
+#     - gh-pages  # Replace "main" with the branch you want to use
